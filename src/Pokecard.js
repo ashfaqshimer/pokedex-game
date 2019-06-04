@@ -23,8 +23,10 @@ export default class Pokecard extends Component {
 
 		return (
 			<div className='Pokecard'>
-				<h3>{name}</h3>
-				<img src={`${imgurl}${stringId}.png`} alt={name} />
+				<h3 className='Pokecard-title'>{name}</h3>
+				<div className='Pokecard-image'>
+					<img src={`${imgurl}${stringId}.png`} alt={name} />
+				</div>
 				<div className='Pokecard-stats'>
 					<p>Type: {type} </p>
 					<p>EXP: {exp} </p>
