@@ -1,0 +1,19 @@
+.Pokedex {
+	padding: 10px;
+	border: 1px grey solid;
+	margin: 10px;
+	border-radius: 2px;
+}
+
+.Pokedex-title {
+	color: grey;
+	padding-bottom: 10px;
+}
+
+.Pokedex-winner {
+	color: green;
+}
+
+.Pokedex-loser {
+	color: red;
+}
